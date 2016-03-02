@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:orientation="vertical" >
+
+<Button android:id="@+id/btnShowLocation"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Send Location"
+    android:onClick="onLoginButtonClick"
+    android:layout_below="@+id/test1"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="56dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/test1"
+        android:hint="Enter Child Id"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="61dp"
+        android:layout_alignRight="@+id/btnShowLocation"
+        android:layout_alignEnd="@+id/btnShowLocation"
+        android:layout_alignLeft="@+id/btnShowLocation"
+        android:layout_alignStart="@+id/btnShowLocation"
+        android:text="fc622999-c05f-4f54-b4bf-a150fe2d39e7" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete Service"
+        android:id="@+id/btndeleteservice"
+        android:layout_below="@+id/btnShowLocation"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="83dp"
+        android:onClick="onDeleteServiceBtn" />
+
+
+</RelativeLayout>
